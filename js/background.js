@@ -3,7 +3,7 @@ const targetImage = imageArr[randomGen()];
 
 const body = document.querySelector('body');
 
-body.style.backgroundImage = `url(./img/${targetImage})`;
+body.style.backgroundImage = `url(img/${targetImage})`;
 
 function randomGen() {
     const num = Math.floor(Math.random() * imageArr.length);
