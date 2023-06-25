@@ -1,0 +1,24 @@
+.displaynone {
+    display: none !important;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 100%;
+    min-height: 100vh;
+    background: no-repeat center / cover;
+    color: #fff;
+    text-align: center;
+}
+body::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5) no-repeat center / cover;
+}
